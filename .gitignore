@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Secrets (add these on Render / Vercel instead)
+.env
+
+# Build output
+frontend/dist/
+
+# Local data created at runtime
+backend/database/*.json
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
